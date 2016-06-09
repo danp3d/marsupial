@@ -32,6 +32,7 @@ on Ubuntu, do
                     "width": "200",
                     "height": "200"
                 }]
+            }
         ],
         "data/objectDetector1.svm"
     ).then(() => {
