@@ -22,17 +22,19 @@ on Ubuntu, do
     const marsupial = require('marsupial')
 
     // Training an object detector
-    marsupial.trainObjectDetector([
-        "imageFileName": "data/images/image1.jpg",
-        "machAreas": [{ // Rectangles with the area that the object detector should use - dimensions in pixels
-            "top": "3",
-            "left": "5",
-            "width": "200",
-            "height": "200"
-        }]
-    ], 
+    marsupial.trainObjectDetector(
+        [
+            {
+                "imageFileName": "data/images/image1.jpg",
+                "machAreas": [{ // Rectangles with the area that the object detector should use - dimensions in pixels
+                    "top": "3",
+                    "left": "5",
+                    "width": "200",
+                    "height": "200"
+                }]
+        ],
         "data/objectDetector1.svm"
-    ).then(() ={
+    ).then(() => {
         console.log("Successfully trained!")    
     })
 
