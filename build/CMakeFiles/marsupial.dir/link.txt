@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -Wreturn-type -O3 -DNDEBUG  -shared -Wl,-soname,marsupial.node -o Release/marsupial.node CMakeFiles/marsupial.dir/src/marsupial.cc.o ../dlib/build/libdlib.so -Wl,-rpath,/home/danp3d/personal/roadsigns/marsupial/dlib/build 

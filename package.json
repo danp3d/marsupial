@@ -1,0 +1,26 @@
+{
+  "name": "pattern-recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- --recursive -R spec",
+    "build:dlib": "./build-dlib",
+    "build:plugin": "cmake-js compile",
+    "build": "npm run build:dlib && npm run build:plugin",
+    "prepublish": "npm run build"
+  },
+  "author": "Daniel Pedroso <daniel.exe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "cmake-js": "^3.2.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "mocha-sinon": "^1.1.5",
+    "should": "^9.0.1",
+    "sinon": "^1.17.4"
+  }
+}

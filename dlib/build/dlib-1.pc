@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: dlib
+Description: Numerical and networking C++ library
+Version: 18.18.100
+Libs: -L${libdir} -ldlib
+Cflags: -I${includedir}
+Requires:

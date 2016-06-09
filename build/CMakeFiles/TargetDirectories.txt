@@ -1,0 +1,3 @@
+/home/danp3d/personal/roadsigns/marsupial/build/CMakeFiles/rebuild_cache.dir
+/home/danp3d/personal/roadsigns/marsupial/build/CMakeFiles/edit_cache.dir
+/home/danp3d/personal/roadsigns/marsupial/build/CMakeFiles/marsupial.dir

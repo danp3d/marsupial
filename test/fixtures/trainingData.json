@@ -1,0 +1,84 @@
+[
+    {
+        "imageFileName": "fixtures/images/60-speedsign1.jpg",
+        "matchAreas": [{
+            "top": "36",
+            "left": "18",
+            "width": "141",
+            "height": "138"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign2.jpg",
+        "matchAreas": [{
+            "top": "16",
+            "left": "1",
+            "width": "87",
+            "height": "87"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign3.jpg",
+        "matchAreas": [{
+            "top": "20",
+            "left": "61",
+            "width": "183",
+            "height": "181"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign4.jpg",
+        "matchAreas": [{
+            "top": "77",
+            "left": "35",
+            "width": "174",
+            "height": "168"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign5.jpg",
+        "matchAreas": [{
+            "top": "141",
+            "left": "448",
+            "width": "70",
+            "height": "69"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign6.jpg",
+        "matchAreas": [{
+            "top": "6",
+            "left": "61",
+            "width": "127",
+            "height": "123"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign7.jpg",
+        "matchAreas": [{
+            "top": "74",
+            "left": "247",
+            "width": "179",
+            "height": "185"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign9.jpg",
+        "matchAreas": [{
+            "top": "56",
+            "left": "82",
+            "width": "124",
+            "height": "122"
+        }]
+    },
+    {
+        "imageFileName": "fixtures/images/60-speedsign10.jpg",
+        "matchAreas": [{
+            "top": "62",
+            "left": "462",
+            "width": "705",
+            "height": "727"
+        }]
+    }
+]
+

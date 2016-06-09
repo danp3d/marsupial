@@ -1,0 +1,8 @@
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/rebuild_cache.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/edit_cache.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/install.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/list_install_components.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/dlib.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/dlib_shared.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/install/local.dir
+/home/danp3d/personal/roadsigns/marsupial/dlib/build/CMakeFiles/install/strip.dir
