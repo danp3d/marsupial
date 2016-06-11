@@ -37,6 +37,6 @@ image-converter/output/*
 
 *.swp
 *.swo
-marsupial/build
-marsupial/dlib/build
-
+build
+dlib/build
+test/output

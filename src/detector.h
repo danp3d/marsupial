@@ -14,23 +14,26 @@
 using namespace std;
 using namespace dlib;
 
-
+// Detect an object in an image (using the given object detector)
 std::vector<rectangle> detect_objects(std::string imageFileName, std::string svmDetectorFileName) {
-	typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type; 
+    typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type; 
 
-	// load a previously trained object detector and try it out on some data
-	ifstream fin(svmDetectorFileName, ios::binary);
-	if (!fin)
+    // Load the object detector
+    ifstream fin(svmDetectorFileName, ios::binary);
+    if (!fin)
         throw new error("Cannot load svm detector file");
 
-	object_detector<image_scanner_type> detector;
-	deserialize(detector, fin);
+    // Deserialize the file
+    object_detector<image_scanner_type> detector;
+    deserialize(detector, fin);
 
-	array2d<unsigned char> image;
+    // Load the image
+    array2d<unsigned char> image;
     load_image(image, imageFileName);
 
+    // Get all matches
     std::vector<rectangle> results = detector(image);
- 
+
     return results;
 }
 

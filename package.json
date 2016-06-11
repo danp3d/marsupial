@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- --recursive -R spec",
-    "build:dlib": "./build-dlib",
+    "build:dlib": "node build-dlib.js",
     "build:plugin": "cmake-js compile",
     "build": "npm run build:dlib && npm run build:plugin",
     "prepublish": "npm run build"
